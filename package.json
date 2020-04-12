@@ -1,0 +1,40 @@
+{
+  "name": "fig-styled",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary Witt",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-figma": "0.0.58",
+    "react-native-web": "^0.12.2",
+    "react-primitives": "^0.8.1",
+    "styled-components": "^5.1.0",
+    "yoga-layout-prebuilt": "^1.9.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "react-figma-webpack-config": "0.0.5",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "arrowParens": "avoid"
+  }
+}
