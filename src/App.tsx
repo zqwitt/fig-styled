@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Page } from 'react-figma'
-import styled, { ThemeProvider } from 'styled-components/primitives'
+import { ThemeProvider } from 'styled-components/primitives'
 import theme from './styles/theme'
 
 export const App = () => {
